@@ -28,8 +28,8 @@ Properties:
 
 Additional design considerations of each: 
 - Contrast
-- Scalability
 - Consistency
+- Scalability
 
 ### Check-in 2
 - 
