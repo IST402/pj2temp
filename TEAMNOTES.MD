@@ -1,4 +1,4 @@
-# In-Class Activity
+# 10/5 In-Class Activity
 #### What are the characteristics of the card?
 - icon 
 - title
