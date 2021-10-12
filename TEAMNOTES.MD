@@ -46,10 +46,10 @@ This is for maintaining communication about your team's working meetings to "shi
 These are notes to be maintained PER date that you meet. What you did and what the next steps are
 ### Meeting Date
 
-#### What we did:
+#### What we did: We wrote our blog posts and did check in 1.
 
 
-#### What we'll do next
+#### What we'll do next: Divide work up between us two.
 
 
 ## Status check ins
