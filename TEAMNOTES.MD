@@ -1,3 +1,20 @@
+# 10/14 In-Class Activity
+
+
+What did you take away from the portion of class about implementing SimpleColors?
+  - SimpleColors can make designing easier(names easier to understand) and it can provide more consistancy consistency
+  - Make it easier for the colors to switch from light and dark modes
+ 
+What did you learn from other groups?
+	- Breaking icon and banners into own files 
+  - States of the card
+  - Keyboard navigation
+
+What are your next steps?
+  - Dropdown
+  - Slots
+  - Breakup
+
 # 10/5 In-Class Activity
 #### What are the characteristics of the card?
 - icon 
