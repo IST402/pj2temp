@@ -90,8 +90,9 @@ Additional design considerations of each:
 - Scalability
 
 ### Check-in 2
-- 
-- 
+- Write API to create icon
+- Create a header and a banner element that has a basic API and implements the icon
+- Write the CSS for those elements
 ### Check-in 3
 - 
 - 
