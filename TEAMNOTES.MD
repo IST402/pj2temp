@@ -93,6 +93,7 @@ Additional design considerations of each:
 - Write icon's basic API
 - Create a header and a banner element that has a basic API and implements the icon
 - Write the CSS for those elements
+- Implement SimpleColors
 ### Check-in 3
 - 
 - 
