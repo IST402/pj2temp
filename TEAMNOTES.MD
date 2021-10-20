@@ -94,6 +94,11 @@ Additional design considerations of each:
 - Create a header and a banner element that has a basic API and implements the icon
 - Write the CSS for those elements
 - Implement SimpleColors
+
+# 10/14 In-Class Activity
+- We learned how to use slotting to make the code more responsive and reusable
+- We can use the drop down method 
+- We will begin to add features to our cards
 ### Check-in 3
 - 
 - 
