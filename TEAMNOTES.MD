@@ -101,8 +101,10 @@ Additional design considerations of each:
 - Implement SimpleColors
 
 ### Check-in 3
-- 
-- 
+- Had a meeting to plan what we are doing for the next week
+- Implementing our button from project 1
+- Learn about scaffold and implement scaffold
+- fix up css
 ### Check-in 4
 - 
 - 
