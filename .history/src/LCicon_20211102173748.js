@@ -60,15 +60,15 @@ export class LCicon extends SimpleColors {
       if (propName === 'type' && this[propName] === 'chem') {
         this.image = beaker;
         this.accentColor = 'green';
-        this.alt = "beaker icon";
+        this.alt = "beaker icon"
       } else if (propName === 'type' && this[propName] === 'math') {
         this.image = lightbulb;
         this.accentColor = 'orange';
-        this.alt = 'lightbulb icon';
+        this.alt = 'lightbulb icon'
       } else if (propName === 'type' && this[propName] === 'tech') {
         this.image = question;
         this.accentColor = 'blue';
-        this.alt = 'question icon';
+        this.alt = ''
       }
     });
   }

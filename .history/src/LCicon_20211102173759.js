@@ -64,7 +64,7 @@ export class LCicon extends SimpleColors {
       } else if (propName === 'type' && this[propName] === 'math') {
         this.image = lightbulb;
         this.accentColor = 'orange';
-        this.alt = 'lightbulb icon';
+        this.alt = 'lightbulb icon'
       } else if (propName === 'type' && this[propName] === 'tech') {
         this.image = question;
         this.accentColor = 'blue';
