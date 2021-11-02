@@ -71,22 +71,26 @@ export class LearningCard extends LitElement {
         border-width: 1px;
         border-color: black;
       }
+
       :host([toggle]) .slime-card-bottom{
             transition: max-height 0.75s linear 0s;
             max-height: var(--slime-card-bottom, 0);
             height: auto;
             overflow: hidden;
         }
+
       .entire-card {
         width: 700px;
         border: 1px solid #696966;
         font-family: 'Open Sans', sans-serif;
       }
+
       .main-header {
         font-weight: 350;
         font-size: 50px;
         margin: 0;
       }
+
       .sub-header {
         font-weight: 500;
         font-size: 50px;

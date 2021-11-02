@@ -55,21 +55,6 @@ export class LCicon extends SimpleColors {
     ];
   }
 
-  updated(changedProperties){
-    changedProperties.forEach((oldValue, propName) => {
-      if (propName === 'type' && this[propName] === 'chem') {
-        this.image = beaker;
-        this.accentColor = 'green';
-      } else if (propName === 'type' && this[propName] === 'math') {
-        this.image = lightbulb;
-        this.accentColor = 'orange';
-      } else if (propName === 'type' && this[propName] === 'tech') {
-        this.image = question;
-        this.accentColor = 'blue';
-      }
-    });
-  }
-
   render() {
     console.log(this.image);
     return html`
