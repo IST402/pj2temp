@@ -127,17 +127,12 @@ contract(){
           </div>
   </lc-frame>
       </div>
-  
     `;
   }
 
   clickToggle(e){
-    this.toggle = !this.toggle
+    This.toggle = !this.toggle
     }
-
-  
-
-  
 
   /**
    * haxProperties integration via file reference

@@ -57,7 +57,7 @@ export class LCheader extends SimpleColors {
         }
 
         :host([toggle=true]) .top:hover{
-          cursor:pointer;
+          cursor:pointer
         }  
 
       `,

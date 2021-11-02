@@ -127,15 +127,8 @@ contract(){
           </div>
   </lc-frame>
       </div>
-  
     `;
   }
-
-  clickToggle(e){
-    this.toggle = !this.toggle
-    }
-
-  
 
   
 

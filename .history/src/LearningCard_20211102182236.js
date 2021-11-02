@@ -129,11 +129,8 @@ contract(){
       </div>
   
     `;
+  
   }
-
-  clickToggle(e){
-    this.toggle = !this.toggle
-    }
 
   
 

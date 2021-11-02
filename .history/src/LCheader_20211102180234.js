@@ -55,11 +55,6 @@ export class LCheader extends SimpleColors {
           display: grid;
           grid-template-columns: 1fr 4fr;
         }
-
-        :host([toggle=true]) .top:hover{
-          cursor:pointer;
-        }  
-
       `,
     ];
 

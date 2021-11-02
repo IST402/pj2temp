@@ -111,7 +111,9 @@ contract(){
       }
     `;
   }
-
+  clickToggle(e){
+    this.toggle = !this.toggle
+    }
   render() {
     // Entire Card
     return html`
@@ -127,15 +129,8 @@ contract(){
           </div>
   </lc-frame>
       </div>
-  
     `;
   }
-
-  clickToggle(e){
-    this.toggle = !this.toggle
-    }
-
-  
 
   
 

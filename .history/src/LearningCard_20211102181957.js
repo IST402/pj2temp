@@ -117,7 +117,7 @@ contract(){
     return html`
       <div class="entire-card">
         <lc-frame type=${this.type}>
-          <lc-header @click=${clickToggle()} type=${this.type} slot="top-card">
+          <lc-header @click=${this.tog} type=${this.type} slot="top-card">
             <lc-icon type=${this.type} slot="icon"></lc-icon>
             <h2 class="main-header" slot="main-header">UNIT 1</h2>
             <h3 class="sub-header" slot="sub-header">${this.subheader}</h3>
@@ -127,17 +127,8 @@ contract(){
           </div>
   </lc-frame>
       </div>
-  
     `;
   }
-
-  clickToggle(e){
-    this.toggle = !this.toggle
-    }
-
-  
-
-  
 
   /**
    * haxProperties integration via file reference
