@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+  <style>
+    html,body {
+      margin: 0;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .wrapper {
+      margin: 50px;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .menu li {
+      display: inline-flex;
+      font-weight: bold;
+      padding: 40px;
+    }
+    learning-card.two::part(icon) {
+      --learning-card-height: 150px;
+      --learning-card-width: 150px;
+      background-color: blue;
+    }
+    learning-card[type="science"]::part(icon) {
+      width: 200px;
+      height: 200px;
+    }
+    circle-button-fj {
+      margin: 80%; 
+    }
+  </style>
+  <title>Project two: learning card</title>
+</head>
+
+<body>
+  <ul class="menu">
+    <li><a href="#">Card demo</a></li>
+    <li><a href="/hax.html">HAX, card demo</a></li>
+  </ul>
+  <div class="wrapper">
+    <learning-card type="chem">
+      <div slot='content'>
+        <ul>
+          <li>Describe the subatomic particles that make up an atom</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+          <li>Describe the subatomic particles that make up an atom.</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+        </ul>
+          <!-- <circle-button-fj
+              title="Help"
+              description="Click here"
+              link="https://quizlet.com/latest"
+          ></circle-button-fj> -->
+      </div>
+    </learning-card>
+    <learning-card type="math">
+      <div slot='content'>
+        <ul>
+          <li>Describe the subatomic particles that make up an atom</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+          <li>Describe the subatomic particles that make up an atom.</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+        </ul>
+      </div>
+    </learning-card>
+    <learning-card type="tech">
+      <div slot='content'>
+        <ul>
+          <li>Describe the subatomic particles that make up an atom</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+          <li>Describe the subatomic particles that make up an atom.</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+        </ul>
+        <dld-btn-1>
+          
+        </dld-btn-1>
+      </div>
+    </learning-card>
+    <!-- <learning-card type="default test">
+      <div slot='content'>
+        <ul>
+          <li>Describe the subatomic particles that make up an atom</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+          <li>Describe the subatomic particles that make up an atom.</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+        </ul>
+      </div>
+    </learning-card>
+
+  
+    <lc-frame type="CHEM CONNECTION">
+
+    </lc-frame> -->
+
+    <!-- <lc-header type="DID YOU KNOW?">
+      <lc-icon type="DID YOU KNOW?" slot="icon"></lc-icon>
+            <h2 id="main-header" slot="heading">Unit 1</h2>
+            <h3 id="sub-header" slot="subHeading">LEARNING OBJECTIVES</h3>
+    </lc-header> -->
+ 
+
+  </div>
+  <script type="module">
+    import "./src/app.js";
+    // eslint-disable-next-line import/no-extraneous-dependencies
+    import '@3b4b/circle-button-fj/circle-button-fj';
+  </script>
+  <script type="text/javascript" src="src/LCicon.js"></script>
+  <script type="text/javascript" src="src/LCheader.js"></script>
+  <script type="text/javascript" src="src/LCframe.js"></script>
+</body>
+
+</html>

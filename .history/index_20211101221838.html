@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+  <style>
+    html,body {
+      margin: 0;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .wrapper {
+      margin: 50px;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .menu li {
+      display: inline-flex;
+      font-weight: bold;
+      padding: 40px;
+    }
+    learning-card.two::part(icon) {
+      --learning-card-height: 150px;
+      --learning-card-width: 150px;
+      background-color: blue;
+    }
+    learning-card[type="science"]::part(icon) {
+      width: 200px;
+      height: 200px;
+    }
+    circle-button-fj {
+      margin: 80%; 
+    }
+  </style>
+  <title>Project two: learning card</title>
+</head>
+
+<body>
+  <ul class="menu">
+    <li><a href="#">Card demo</a></li>
+    <li><a href="/hax.html">HAX, card demo</a></li>
+  </ul>
+  <div class="wrapper">
+    <learning-card type="chem">
+      <div slot='content'>
+        <ul>
+          <li>Describe the subatomic particles that make up an atom</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+          <li>Describe the subatomic particles that make up an atom.</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+        </ul>
+          <!-- <circle-button-fj
+              title="Help"
+              description="Click here"
+              link="https://quizlet.com/latest"
+          ></circle-button-fj> -->
+      </div>
+    </learning-card>
+    <learning-card type="math">
+      <div slot='content'>
+        <ul>
+          <li>State the area and perimeter of a rectangle.</li>
+          <li>
+            If a cyliner of oil has a unit weight of 670 slugs/cubic meter, determine the weight in kgs.
+          </li>
+          <li>A pyramid has a height of 4cm and the length of each side of the base is 6cm. Find the lateral area.</li>
+          <li>
+            The area of a square is 144 square feet. What is the perimeter of the square?
+          </li>
+        </ul>
+      </div>
+    </learning-card>
+    <learning-card type="tech">
+      <div slot='content'>
+        <ul>
+          <li>VSCode is a free code editor, which runs on the macOS, Linux, and Windows operating systemms.</li>
+          <li>
+           Download the required Javascript tools and language support through the welcome page.
+          </li>
+          <li>Describe the subatomic particles that make up an atom.</li>
+          <li>
+            Use the periodic table to determine the numbers of protons and
+            electrons in a neutral (uncharged) atom.
+          </li>
+        </ul>
+        <dld-btn-1>
+          <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal" class="links"> <img src='../image/apple.png'/> macOS</a>
+          <a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user" class="links"> <img src='../image/windows.png'/> Windows</a>
+          <a href="https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" class="links"> <img src='../image/linux.png'/> Linux</a>
+          </dld-btn-1>
+      </div>
+    </learning-card>
+    <br/>
+    <br/>
+
+  </div>
+  <script type="module">
+    import "./src/app.js";
+    // eslint-disable-next-line import/no-extraneous-dependencies
+    import '@3b4b/circle-button-fj/circle-button-fj';
+  </script>
+  <script type="text/javascript" src="src/LCicon.js"></script>
+  <script type="text/javascript" src="src/LCheader.js"></script>
+  <script type="text/javascript" src="src/LCframe.js"></script>
+</body>
+
+</html>
