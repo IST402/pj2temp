@@ -35,7 +35,7 @@ export class LCframe extends SimpleColors {
             height: auto;
             overflow: hidden;
         }
-        
+       
       `,
     ];
   }
