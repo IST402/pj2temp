@@ -57,7 +57,7 @@ export class LCheader extends SimpleColors {
         }
 
         :host([toggle=true]) .top:hover{
-          cursor:pointer;
+          cursor:pointer
         }  
 
       `,
@@ -67,7 +67,7 @@ export class LCheader extends SimpleColors {
 
   render() {
     return html`
-      <div class="top" onclick="toggle()">
+      <div class="top">
         <div class="grid">
           <div class="section">
             <slot name="icon"></slot>

@@ -35,7 +35,13 @@ export class LCframe extends SimpleColors {
             height: auto;
             overflow: hidden;
         }
-        
+        .content {
+          background-color: white;
+          border: 1px solid #676767;
+          padding-top: 10px;
+          padding-bottom: 5px;
+          padding-left: 150px;
+        }
       `,
     ];
   }

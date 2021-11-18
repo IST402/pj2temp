@@ -60,6 +60,10 @@ export class LCheader extends SimpleColors {
           cursor:pointer;
         }  
 
+        .section{
+          display: non
+        }
+
       `,
     ];
 

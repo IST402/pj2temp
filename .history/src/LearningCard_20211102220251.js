@@ -132,7 +132,7 @@ contract(){
   }
 
   clickToggle(e){
-    this.toggle = !this.toggle;
+    this.toggle = !this.toggle
     }
 
   

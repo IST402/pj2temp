@@ -35,10 +35,28 @@ export class LCframe extends SimpleColors {
             height: auto;
             overflow: hidden;
         }
-        
+        #content {
+          background-color: white;
+          border: 1px solid #676767;
+          padding-top: 10px;
+          padding-bottom: 5px;
+          padding-left: 150px;
+        }
       `,
     ];
   }
+
+  // updated(changedProperties) {
+  //   changedProperties.forEach((oldValue, propName) => {
+  //       if(this.toggle===true && this.expanded===false){
+  //           this.addEventListener('click',this.expand);
+  //       }
+
+  //       if(this.toggle===true && this.expanded===true){
+  //           this.addEventListener('click',this.contract);
+  //       }
+  //   });
+  // }
 
   render() {
     // Scaffold card

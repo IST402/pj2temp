@@ -46,7 +46,7 @@
   </ul>
   <div class="wrapper">
     <learning-card type="chem">
-      <div slot='content'>
+      <div slot='content' onclick="toggle()">
         <ul>
           <li>Define and explain viscosity.</li>
           <li>
@@ -106,5 +106,17 @@
   <script type="text/javascript" src="src/LCheader.js"></script>
   <script type="text/javascript" src="src/LCframe.js"></script>
 </body>
+
+
+<script>
+  function toggle() {
+  let x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 </html>

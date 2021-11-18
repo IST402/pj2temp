@@ -46,7 +46,7 @@ export class LCheader extends SimpleColors {
         }
         .top {
           background-color: var(--simple-colors-default-theme-accent-7);
-          display: flex;
+          display: none;
           color: white;
           font-family: 'Open Sans', sans-serif;
           border: 1px, solid, var(--simple-colors-default-theme-accent-7);

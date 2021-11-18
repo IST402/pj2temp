@@ -55,11 +55,6 @@ export class LCheader extends SimpleColors {
           display: grid;
           grid-template-columns: 1fr 4fr;
         }
-
-        :host([toggle=true]) .top:hover{
-          cursor:pointer;
-        }  
-
       `,
     ];
 
@@ -67,7 +62,7 @@ export class LCheader extends SimpleColors {
 
   render() {
     return html`
-      <div class="top" onclick="toggle()">
+      <div class="top">
         <div class="grid">
           <div class="section">
             <slot name="icon"></slot>

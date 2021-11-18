@@ -27,7 +27,7 @@ export class LCframe extends SimpleColors {
       ...super.styles,
       css`
         :host {
-          display: block;
+          /* display: block; */
         }
         :host([toggle]) .content{
             transition: max-height 0.75s linear 0s;
@@ -35,7 +35,7 @@ export class LCframe extends SimpleColors {
             height: auto;
             overflow: hidden;
         }
-        
+       
       `,
     ];
   }
